@@ -9,9 +9,7 @@
 </head>
 <body>
 <div>
-    <form action="/signUp" method="post">
-        <input name="firstName" placeholder="First Name">
-        <input name="lastName" placeholder="Last Name">
+    <form action="/signIn" method="post">
         <input name="email" placeholder="Email">
         <input name="password" type="password">
         <input type="submit" value="Sign Up">
