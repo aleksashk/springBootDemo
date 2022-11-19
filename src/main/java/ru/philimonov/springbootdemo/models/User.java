@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Data
 @AllArgsConstructor
@@ -19,6 +20,7 @@ import javax.persistence.Id;
 @Setter
 @Builder
 @Entity
+@Table(name="account")
 public class User {
 
     @Id
